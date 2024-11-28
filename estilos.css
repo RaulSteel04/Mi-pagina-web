@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+    
+}
+
+body {
+    background: linear-gradient(rgb(36, 158, 52),rgb(184, 248, 184));
+
+margin: 40px;
+}
+
+.perfil {
+    max-width: 400;
+    border: 5px solid white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+}
+h2 {
+    color: white
+}
+h3 {
+    color:black
+}
+input[type="text"], input[type="email"] {
+    min-width: 100px;
+    min-height: 30px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: 2px white solid;
+}
+input[type="text"]:hover, input[type="email"]:hover {
+    border: 2px black solid;
+    box-shadow: 5px 5px 5px whitesmoke;
+}
+
+a:hover {
+    text-shadow: 5px 5px 5px;
+}
