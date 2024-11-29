@@ -1,0 +1,81 @@
+body {
+    background: linear-gradient(to left, aqua, green);
+    min-height: 10vh
+}
+
+/*Estilos de Principal HTML*/
+.enca {
+    background-color: rgb(229, 194, 130);
+    text-align: center;
+    border-radius: 10px;
+    padding: 2rem;
+    border: 0.5px solid black;
+    grid-area: enca;
+    
+    
+}
+
+.men {
+    background-color: rgb(111, 206, 227);
+    text-align: center;
+    padding: 2rem;
+    border: 0.5px solid black;
+    grid-area: men;
+}
+
+.cont {
+    background-color: rgb(246, 153, 147);
+    text-align: center;
+    border-radius: 80px;
+    padding: 2rem;
+    border: 0.5px solid black;
+    grid-area: cont;
+}
+
+.submen {
+    background-color: rgb(146, 143, 241);
+    text-align: center;
+    padding: 2rem;
+    border: 0.5px solid black;
+    grid-area: submen;
+    
+}
+
+.pied {
+    background-color: rgb(55, 134, 90);
+    text-align: center;
+    padding: 2rem;
+    border: 0.5px solid black;   
+    grid-area: pied;
+}
+
+.footer
+
+/*CSS GRIP*/
+
+.page {
+    display: grid;
+    gap: 2px;
+    grid-template:
+    "enca" auto
+    "men" 50px
+    "cont" auto
+    "submen" 100px
+    "pied" 50px;
+
+    @media (min-height: 760px){
+         grid-template: 
+         "enca    enca   enca"100px
+         "men     men    men"50px
+         "cont    cont   submen" auto
+         "pied    pied   pied"5px / auto auto 30%;
+    }
+
+    @media (min-height: 1024px){
+        grid-template: 
+        "enca    enca   enca   enca    enca" 100px
+        "men     cont   cont   cont    submen" auto
+        "pied    pied   pied    pied    pied"50px / 20% auto auto auto 20%;
+   }
+}
+
