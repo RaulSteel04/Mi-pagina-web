@@ -16,25 +16,26 @@ margin: 40px;
     box-shadow: 5px 5px 5px black;
 }
 h2 {
-    color: white
+    color: rgb(5, 61, 5)
 }
 h3 {
     color:black
 }
-input[type="text"], input[type="email"] {
+input[type="text"], input[type="email"], input[type="number"] {
     min-width: 100px;
     min-height: 30px;
     margin-bottom: 5px;
     border-radius: 10px;
     border: 2px white solid;
 }
-input[type="text"]:hover, input[type="email"]:hover {
+input[type="text"]:hover, input[type="email"]:hover, input[type="number"]:hover {
     border: 2px black solid;
-    box-shadow: 5px 5px 5px whitesmoke;
+    box-shadow: 5px 5px 5px #1da322;
 }
 
 a:hover {
     text-shadow: 5px 5px 5px;
+    color: red;
 }
 
 .button {
@@ -49,7 +50,7 @@ a:hover {
     border: #555 2px solid;
     box-shadow: 5px 5px 5px #555;
     color: greenyellow;
-    background-color: black;
+    background-color: rgb(25, 163, 94);
 }
 
 table {
